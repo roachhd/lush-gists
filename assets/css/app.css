@@ -1,0 +1,245 @@
+/**
+ * App Styles
+ */
+
+/**
+ * Helpers.
+ */
+
+.cf:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/**
+ * Typography.
+ */
+
+body {
+  font-family: 'Hind';
+  text-rendering: optimizeLegibility;
+  color: #333;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/**
+ * Layout.
+ */
+.container {
+  margin: auto;
+  max-width: 1200px;
+  padding: 0 30px;
+  box-sizing: content-box;
+}
+
+/**
+ * Navbar.
+ */
+.navbar {
+  background: #6589ee;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.brand {
+  float: left;
+}
+
+.credit {
+  float: right;
+  color: rgba(255, 255, 255, .5);
+}
+
+.credit a {
+  text-decoration: none;
+  color: white;
+}
+
+/**
+ * Main.
+ */
+.main {
+  padding: 60px 0;
+}
+
+.main.loading {
+  height: 300px;
+  background: url('../img/spinner.gif') no-repeat center;
+  background-size: 30px;
+}
+
+.main.loading > * {
+  display: none;
+}
+
+.title {
+  font-size: 36px;
+  letter-spacing: -1px;
+}
+
+.left-column {
+  float: left;
+  width: 50%;
+}
+
+.right-column {
+  width: 45%;
+  float: right;
+}
+
+/**
+ * Intro.
+ */
+
+.intro p {
+  float: left;
+  width: 50%;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/**
+ * Ad.
+ */
+
+.ad {
+  float: right;
+  width: 30%;
+}
+
+.adpacks-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.adpacks-img img {
+  display: block;
+}
+
+.adpacks-text {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+}
+
+.adpacks-poweredby {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #999;
+  margin-top: 5px;
+}
+
+/**
+ * App.
+ */
+
+.app {
+  margin-top: 60px;
+}
+
+/**
+ * Settings.
+ */
+.section {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: solid 1px #ddd;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #999;
+  margin-bottom: 30px;
+  text-transform: titlecase;
+}
+
+.setting-row {
+  display: block;
+  margin-top: 10px;
+}
+
+.setting-label {
+  float: left;
+  line-height: 30px;
+}
+
+.setting-input {
+  color: #333;
+  float: right;
+  width: 60%;
+  border: none;
+  margin: 0;
+  padding: 5px 10px;
+  line-height: 20px;
+  box-shadow: inset 0 0 0 1px #ddd;
+  border-radius: 2px;
+  font-family: Inconsolata, monospace;
+}
+
+.setting-input:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 1px #4672eb, 0 0 3px rgba(70, 114, 235, .25);
+}
+
+.setting-input.iris-error {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .25);
+}
+
+.setting-input.iris-error:focus {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .25), 0 0 3px #ffafaf;
+}
+
+.iris-picker {
+  float: right;
+  clear: both;
+  margin-top: 10px !important;
+}
+
+/**
+ * Gist preview.
+ */
+.gist {
+  margin-top: 30px;
+}
+
+/**
+ * Download.
+ */
+.title-download {
+  margin-top: 60px;
+}
+
+.download-styles {
+  width: 100%;
+  height: 210px;
+  display: block;
+  color: #333;
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  line-height: 1.25;
+  box-shadow: inset 0 0 0 1px #ddd;
+  border-radius: 2px;
+  font-family: Inconsolata, monospace;
+}
+
+.download-styles:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 1px #4672eb, 0 0 3px rgba(70, 114, 235, .25);
+}
