@@ -1,0 +1,164 @@
+{
+  "settings": [
+    {
+      "fonts": [
+        {
+          "code": {
+            "id"       : "ff-code",
+            "label"    : "Code",
+            "type"     : "font",
+            "value"    : "Consolas, 'Liberation Mono', Courier, monospace",
+            "selector" : ".gist .gist-file .gist-data .line-pre",
+            "property" : "font-family"
+          }
+        },
+        {
+          "lineNumbers": {
+            "id"       : "ff-line-numbers",
+            "label"    : "Line Numbers",
+            "type"     : "font",
+            "value"    : "Consolas, 'Liberation Mono', Courier, monospace",
+            "selector" : ".gist .gist-file",
+            "property" : "font-family"
+          }
+        },
+        {
+          "meta": {
+            "id"       : "ff-meta",
+            "label"    : "Meta",
+            "type"     : "font",
+            "value"    : "'Helvetica Neue', Helvetica, arial, freesans, clean, sans-serif",
+            "selector" : ".gist .gist-file .gist-meta",
+            "property" : "font-family"
+          }
+        }
+      ]
+    },
+    {
+      "borders": [
+        {
+          "main": {
+            "id"       : "bdr-main",
+            "label"    : "Main",
+            "type"     : "color",
+            "value"    : "#dddddd",
+            "selector" : ".gist .gist-file",
+            "property" : "border-color"
+          }
+        },
+        {
+          "lineNumbersRight": {
+            "id"       : "bdr-line-numbers-right",
+            "label"    : "Line Numbers (right)",
+            "type"     : "color",
+            "value"    : "#dddddd",
+            "selector" : ".gist .gist-file .gist-data .line-numbers",
+            "property" : "border-right-color"
+          }
+        },
+        {
+          "metaTop": {
+            "id"       : "bdr-meta-top",
+            "label"    : "Meta (top)",
+            "type"     : "color",
+            "value"    : "#dddddd",
+            "selector" : ".gist .gist-file .gist-data",
+            "property" : "border-bottom-color"
+          }
+        }
+      ]
+    },
+    {
+      "backgrounds": [
+        {
+          "lineNumbers": {
+            "id"       : "bg-line-numbers",
+            "label"    : "Line Numbers",
+            "type"     : "color",
+            "value"    : "#ececec",
+            "selector" : ".gist .gist-file .gist-data .line-numbers",
+            "property" : "background"
+          }
+        },
+        {
+          "code": {
+            "id"       : "bg-code",
+            "label"    : "Code",
+            "type"     : "color",
+            "value"    : "#f8f8ff",
+            "selector" : ".gist .gist-file .gist-data",
+            "property" : "background"
+          }
+        },
+        {
+          "meta": {
+            "id"       : "bg-meta",
+            "label"    : "Meta",
+            "type"     : "color",
+            "value"    : "#e8e8e8",
+            "selector" : ".gist .gist-file .gist-meta",
+            "property" : "background"
+          }
+        }
+      ]
+    },
+    {
+      "colors": [
+        {
+          "lineNumbers": {
+            "id"       : "clr-line-numbers",
+            "label"    : "Line Numbers",
+            "type"     : "color",
+            "value"    : "#aaaaaa",
+            "selector" : ".gist .gist-file .gist-data .line-numbers",
+            "property" : "color"
+          }
+        },
+        {
+          "meta": {
+            "id"       : "clr-meta",
+            "label"    : "Meta",
+            "type"     : "color",
+            "value"    : "#999999",
+            "selector" : ".gist .gist-file .gist-meta",
+            "property" : "color"
+          }
+        },
+        {
+          "metaLinks": {
+            "id"       : "clr-meta-links",
+            "label"    : "Meta Links",
+            "type"     : "color",
+            "value"    : "#666666",
+            "selector" : ".gist .gist-file .gist-meta a",
+            "property" : "color"
+          }
+        }
+      ]
+    },
+    {
+      "shadows": [
+        {
+          "lineNumbers": {
+            "id"       : "sdw-line-numbers",
+            "label"    : "Line Numbers",
+            "type"     : "text-shadow",
+            "value"    : "none",
+            "selector" : ".gist .gist-file .gist-data .line-numbers",
+            "property" : "text-shadow"
+          }
+        },
+        {
+          "meta": {
+            "id"       : "sdw-meta",
+            "label"    : "Meta",
+            "type"     : "text-shadow",
+            "value"    : "1px 1px rgba(255, 255, 255, .8)",
+            "selector" : ".gist .gist-file .gist-meta",
+            "property" : "text-shadow"
+          }
+        }
+      ]
+    }
+  ]
+}
