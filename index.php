@@ -24,11 +24,6 @@
             <p>The Lush Style Roller allows you quickly and easily create your own css styles for GitHub's Gist widgets and embeds. Fill out the settings below and copy the generated CSS into your project for lush Gists.</p>
           </div>
 
-          <div class="ad">
-            <script async src="#" id="_adpacks_js"></script>
-          </div>
-        </div>
-
         <div class="app cf">
           <div class="left-column">
             <h2 class="title title-settings">Settings</h1>
@@ -67,7 +62,7 @@
 
           <div class="right-column">
             <h2 class="title title-preview">Preview</h1>
-            <script src="https://gist.github.com/roachhd/779fa77e9b90fe945b0c"></script>
+            <script src="https://gist.github.com/roachhd/c3c3c27b3b20182135cf"></script>
 
             <h2 class="title title-download">Download</h2>
             <textarea id="download-styles" class="download-styles"></textarea>
