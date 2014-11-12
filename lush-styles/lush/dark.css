@@ -1,0 +1,16 @@
+.gist .gist-file .gist-data .line-pre{font-family:Helvetica, arial, freesans, clean, sans-serif !important}
+.gist .gist-file{font-family:'Helvetica Neue', Helvetica, arial, freesans, clean, sans-serif !important}
+.gist .gist-file .gist-meta{font-family:'Helvetica Neue', Helvetica, arial, freesans, clean, sans-serif !important}
+.gist .gist-file{border-color:#8eddf9 !important}
+.gist .gist-file .gist-data .line-numbers{border-right-color:#33c4f9 !important}
+.gist .gist-file .gist-data{border-bottom-color:#dddddd !important}
+.gist .gist-file .gist-data .line-numbers{background:#131010 !important}
+.gist .gist-file .gist-data{background:#0e0e0f !important}
+.gist .gist-file .gist-meta{background:#111013 !important}
+.gist .gist-file .gist-data .line-numbers{color:#ffffff !important}
+.gist .gist-file .gist-meta{color:#ddd9d9 !important}
+.gist .gist-file .gist-meta a{color:#ffffff !important}
+.gist .gist-file .gist-data .line-numbers{text-shadow:none !important}
+.gist .gist-file .gist-meta{text-shadow:1px rgba(255, 255, 255, .8) !important}
+.gist .gist-file .gist-data {border-radius: 2px 2px 0 0 !important}
+.gist .gist-file .gist-meta {border-radius: 0 0 2px 2px !important}
